@@ -1,0 +1,11 @@
+
+/* margin porque el navbar esta fixed */
+body {
+  padding-top: 4.5rem;
+}
+
+/* para imagen (logo) en navbar */
+.img-navbar {
+  max-height: 25px;
+  width: auto;
+ }

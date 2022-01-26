@@ -1,0 +1,156 @@
+ @font-face {
+     font-family: "bahnschrift";
+     src        : url("fonts/bahnschrift.ttf");
+ }
+
+ @font-face {
+     font-family: "ConcettaKalvaniSignature";
+     src        : url("fonts/ConcettaKalvaniSignature.ttf");
+ }
+
+ .cont-img {
+     position: relative;
+     display : inline-block;
+ }
+
+ .cont-img > .texto-encima {
+     position: absolute;
+     top     : 1em;
+     left    : 1em;
+ }
+
+ .cont-img > .centrado {
+     position : absolute;
+     top      : 50%;
+     left     : 50%;
+     transform: translate(-50%, -50%);
+ }
+
+ .bg-img {
+     background-position  : 40% 0%;
+     background-repeat    : no-repeat;
+     background-size      : cover;
+     background-attachment: fixed;
+     max-width            : 100%;
+     width                : 100%;
+     display              : grid;
+     color                : #FFF;
+ }
+
+ .bg-img>div,
+ .bg-img>p {
+     text-shadow: .1em .1em .2em #000;
+ }
+
+
+ .img-portada {
+     color      : #fff !important;
+     margin-top : -150px;
+     padding-top: 150px;
+ }
+
+ /* .img-portada .portada-content-container { */
+ .portada-content-container {
+     position    : absolute;
+     top         : 50%;
+     width       : 100%;
+     padding     : 0;
+     z-index     : 5;
+     /* transform: translateY(-50%); */
+ }
+
+ h2 {
+    padding: 10px;
+ }
+
+ .site-header {
+     z-index: 100;
+ }
+
+ .site-header a {
+     //text-shadow: .1em .1em .2em #000;
+ }
+
+ .img-redonda img {
+     border-radius: 290486px;
+ }
+
+
+ @media (max-width: 1024px) {}
+
+ .input-transp {
+     background-color: #FFFFFF99 !important;
+ }
+
+ @media (min-width: 768px) {
+     footer {
+         //background-color: #666 !important;
+     }
+ }
+
+
+
+ /*-- Buttons and input elements --*/
+
+ a.button,
+ .button,
+     {
+     -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+     box-shadow        : 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+     -webkit-transition: all .15s ease;
+     transition        : all .15s ease;
+ }
+
+ /*
+ a.button:hover,
+ a:hover {
+     -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+     box-shadow        : 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+     -webkit-transform : translateY(-1px);
+     transform         : translateY(-1px);
+ }
+*/
+ hr {
+     height: 3px;
+ }
+
+
+ /*
+  .site-header {
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+ //border-bottom: 1px solid rgba(231, 179, 95, 0.3);
+ }
+
+ .tax-product_cat .woocommerce-products-header {
+     display: none;
+ }
+
+ .no-active.current-menu-item a:before {
+     width: 0 !important;
+ }
+
+ .no-active.current-menu-item:hover a:before {
+     width: calc(100% - 40px) !important;
+ }
+
+
+ */
+ /* Navigation and Links */
+
+ @media (min-width: 1024px) {}
+
+ @media (max-width: 500px) {}
+
+ @media (min-width: 768px) {}
+
+ @media (max-width: 768px) {}
+
+  /* Navigation and Links */
+
+  .text {
+     color: #000000;
+     text-align: justify;
+      overflow-wrap: break-word;
+      white-space: normal !important
+ }
+
